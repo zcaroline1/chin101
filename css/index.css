@@ -1,0 +1,25 @@
+body {
+    font-family: "Times New Rome";
+    background-color: #d6d7d1;
+    text-align: left;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3, p1 {
+    display: inline;
+}
+
+table, th, td {
+    /*border:1px solid rgb(0, 0, 0);*/
+    border-collapse: collapse;
+    padding: 8px;
+    
+}
+
+tr {
+    border-bottom: 1px solid #929292;
+}
