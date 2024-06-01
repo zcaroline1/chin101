@@ -23,26 +23,32 @@
     
     <h3> Course Materials: </h3> 
     <p1>Textbooks are available at the 
-        <a href="https://www.google.com/maps/place/Shakespeare+%26+Co/@40.7681467,-73.9640902,18z/data=!3m1!5s0x89c258ebcfa1255b:0x24687a30eedfe028!4m15!1m8!3m7!1s0x89c258ebc40112d9:0xb457c885bb62fe60!2s939+Lexington+Ave,+New+York,+NY+10065!3b1!8m2!3d40.7681457!4d-73.9634465!16s%2Fg%2F11c5l017jy!3m5!1s0x89c258ebc6c03d09:0x2288c6aa819e5041!8m2!3d40.7681457!4d-73.9634465!16s%2Fg%2F1th648p2?entry=ttu">Shakespeare Bookstore</a>.
+        <a href="https://www.google.com/maps/place/Shakespeare+%26+Co/@40.7681467,-73.9640902,18z/data=!3m1!5s0x89c258ebcfa1255b:0x24687a30eedfe028!4m15!1m8!3m7!1s0x89c258ebc40112d9:0xb457c885bb62fe60!2s939+Lexington+Ave,+New+York,+NY+10065!3b1!8m2!3d40.7681457!4d-73.9634465!16s%2Fg%2F11c5l017jy!3m5!1s0x89c258ebc6c03d09:0x2288c6aa819e5041!8m2!3d40.7681457!4d-73.9634465!16s%2Fg%2F1th648p2?entry=ttu">
+            Shakespeare Bookstore</a>.
     </p1>
     
     <ul>
-        <li> Chao, Der-lin (2006). <strong><em>Elementary Chinese</em></strong>.</li>
-        <img src="img/elemChinese.png" style="height:200px;"/>
-        <li> Chao, Der-lin (2008). <strong><em> A New Multimedia Course for Learning Chinese Characters</em></strong>. (Textbook & Workbook)</li>
-        <img src="img/newMulti.png" style="height:200px;"/>
+        <div1 class="grid-books">
+            <li class="book"> Chao, Der-lin (2006). <strong><em>Elementary Chinese</em></strong>.</li>
+            <img class="book" src="img/elemChinese.png" style="height:200px;"/>
+            <li class="book"> Chao, Der-lin (2008). <strong><em> A New Multimedia Course for Learning Chinese Characters</em></strong>. (Textbook & Workbook)</li>
+            <img class="book" src="img/newMulti.png" style="height:200px;"/>
+        </div1>
         
         <h4 style="margin-bottom: 0;">Useful links:</h4>
-        <li><a href="https://materials2.chineseforall.org/soundsystem/index.html">Chinese Sound System</a></li>
-        <li><a href="http://materials1.chineseforall.org/index.html">Character Learning Website</a></li>
-        <li><a href="https://materials2.chineseforall.org/elementary/index.html">Elementary Chinese Audio Website</a></li>
-        <li><a href="https://quizlet.com/user/claoshi/folders/elementary-chinese/sets">Vocabulary Quizlet</a></li>
+        <div class="grid-links"> 
+            <a class="link-button" href="https://materials2.chineseforall.org/soundsystem/index.html" onclick="changeButtonColor(this)">Chinese Sound System</a>
+            <a class="link-button" href="http://materials1.chineseforall.org/index.html" onclick="changeButtonColor(this)">Character Learning Website</a>
+            <a class="link-button" href="https://materials2.chineseforall.org/elementary/index.html" onclick="changeButtonColor(this)">Elementary Chinese Audio Website</a>
+            <a class="link-button" href="https://quizlet.com/user/claoshi/folders/elementary-chinese/sets" onclick="changeButtonColor(this)">Vocabulary Quizlet</a>
+        </div>
+        
 
     </ul>
     <br>
 
     <h3> Schedule:</h3>
-    <table style="width:90%">
+    <table style="width:100%">
         <colgroup>
             <col style="width:30%">
             <col style="width:35%">
@@ -139,4 +145,5 @@
             <td></td>
         </tr>
     </table>
+    <scrip src="script.js"> </scrip>
 </body>
